@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url("assets/images/bg.jpg");
+    height:644px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    background-size: max(1200px,100vw);
+    position:relative;
+    
+}
+body{
+    background-color: black;
+}
+.nav{
+    /* display: flex;
+    margin: auto;
+    height:100px;
+    max-width: 60vw;
+    flex-direction: row;
+    justify-content: space-between; */max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    z-index: 10;
+}
+
+.separation{
+    width:100vw;
+    height:6px;
+    background-color: rgb(49, 49, 49);
+}
